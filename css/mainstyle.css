@@ -1,0 +1,38 @@
+/*Системные настройки*/
+div{
+	display: block;
+	position:relative;
+}
+a{
+	text-decoration:none;
+}
+/*Maincontent*/
+#maincontent{
+	position:relative;
+
+}
+
+#maincontent .bets{
+	width: 10%;
+	height: 10%;
+}
+.modules{
+
+	background-color: red;
+	left: 70%;
+	width: 15%;
+
+
+	
+}
+.modules:hover{
+	display:block;
+}
+.lk{
+	position: relative;
+	left: 70%;
+}
+.lk:hover + .modules{
+
+	left: 70%;
+}
