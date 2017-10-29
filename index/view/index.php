@@ -1,3 +1,9 @@
+<head>
+	<link rel="stylesheet" href="../../css/mainstyle.css">
+</head>
+
+
+
 <?php
 
 /*
@@ -37,9 +43,12 @@ if (is_admin($_SESSION['userId'])) {
 <?	
 	}
 ?>
-<div class="r1_golov">Личный кабинет</div>
-<div class="r1">
-Сейчас: <?=date('d/m/Y H:i', time());?><br>
+<div id="upper">
+	
+</div>
+<div class="lk">Личный кабинет</div>
+
+<div class="modules">
 На Вашем счету: <? echo round(userBalance($_SESSION['userId']), 2); ?>  руб.<br>
 
 
