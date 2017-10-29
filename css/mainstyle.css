@@ -17,28 +17,22 @@ a{
 	height: 10%;
 }
 .modules{
-	position:absolute;
+
 	background-color: red;
 	left: 70%;
 	width: 15%;
-	display: none;
-	left: 1000000px;
+
+
 	
 }
 .modules:hover{
-	opacity: 100;
+	display:block;
 }
 .lk{
 	position: relative;
 	left: 70%;
 }
 .lk:hover + .modules{
-	display: block;
+
 	left: 70%;
-}
-#upper{
-	position:absolute;
-	width: 100%;
-	height: 10%;
-	background: black;
 }

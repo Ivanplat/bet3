@@ -49,7 +49,8 @@ if (is_admin($_SESSION['userId'])) {
 <div class="lk">Личный кабинет</div>
 
 <div class="modules">
-На Вашем счету: <? echo round(userBalance($_SESSION['userId']), 2); ?>  руб.<br>
+	
+<!--Вашем счету: <? echo round(userBalance($_SESSION['userId']), 2); ?>  руб.<br> -->
 
 
 
